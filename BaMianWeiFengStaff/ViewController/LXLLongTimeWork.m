@@ -9,5 +9,8 @@
 #import "LXLLongTimeWork.h"
 
 @implementation LXLLongTimeWork
-
+- (void)viewDidLoad
+{
+    self.view.backgroundColor = [UIColor redColor];
+}
 @end
