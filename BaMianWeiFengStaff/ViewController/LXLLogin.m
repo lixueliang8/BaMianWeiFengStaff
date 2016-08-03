@@ -12,5 +12,7 @@
 - (void)viewDidLoad
 {
     self.view.backgroundColor = [UIColor redColor];
+    UILabel * label = [[UILabel alloc] initWithFrame:CGRectMake(10, 10, 20, 20)];
+    label.text = @"wanmaoxian";
 }
 @end
